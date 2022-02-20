@@ -1,0 +1,60 @@
+.Home-Parent-Container{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.Home-Image-Container{
+    width: max-content;
+    display: flex;
+}
+.Home-Image-Container-Image{
+    /* height: 40vh; */
+    background-image: url(../Photos/img1.jpg);
+    /* height: 60vh;
+    width: 75vw; */
+    height: 60vh;
+    width: 80vw;
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-position-x: center;
+    
+}
+.Home-Image-Container-Content{
+    width: 25vw;
+    background-color: white;
+    height: 45vh;
+   
+    position: relative;
+    left: -200px;
+    top: 10vh;;
+    
+    
+   
+}
+.Home-Image-Container-Detail{
+    height: 18.5vh;
+    position: relative;
+    overflow: visible;
+    overflow-y: scroll;
+   font-family: monospace;
+   padding-left: 10%;
+   /* text-align: center; */
+   font-size: 1rem;
+   text-align: left;
+}
+.Home-Image-Container-Display-Image{
+    width: 20vw;
+    height: 15vh;
+   
+}
+.Home-Image-Container-Title{
+    font-family: 'Lobster', Comic Sans MS, Lucida Handwriting, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.7rem;
+   
+   margin-top: 5%;
+   margin: 2%;
+    font-weight: 900;
+}
